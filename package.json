@@ -1,0 +1,26 @@
+{
+  "name": "instant-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/InstantWallet.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.1"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0",
+    "eventemitter3": "^5.0.1",
+    "localstorage-ponyfill": "^1.0.2"
+  }
+}
